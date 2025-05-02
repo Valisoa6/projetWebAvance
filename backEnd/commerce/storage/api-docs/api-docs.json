@@ -1,0 +1,29 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Commerce",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/products": {
+            "get": {
+                "tags": [
+                    "Produits"
+                ],
+                "summary": "Lister tous les produits",
+                "operationId": "1bfaa78d1c2c3848ab8165c5dadcad3e",
+                "responses": {
+                    "200": {
+                        "description": "Succès"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Produits",
+            "description": "Produits"
+        }
+    ]
+}
