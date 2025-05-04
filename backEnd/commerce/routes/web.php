@@ -13,4 +13,4 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-Route::get('/', [ProductController::class, 'indexb']);
+Route::get('/', [ProductController::class, 'index']);

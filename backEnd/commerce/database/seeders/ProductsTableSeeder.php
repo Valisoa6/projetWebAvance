@@ -13,34 +13,28 @@ class ProductsTableSeeder extends Seeder
 
         $products = [
             [
-                'images' => ['nike1.jpg', 'nike1_alt.jpg'],
+                'images' => ['nike1_alt.jpg'],
                 'prix' => 49.99,
-                'marque' => 'Nike',
-                'description' => 'Chaussures de sport confortables.'
+                'marque' => 'Off-White',
+                'description' => 'Out of Office "Ooo" sneakers'
             ],
             [
                 'images' => ['adidas1.jpg'],
                 'prix' => 59.99,
-                'marque' => 'Adidas',
-                'description' => 'Chaussures légères pour la course.'
+                'marque' => 'Nike',
+                'description' => 'Nike Air Force Premium'
             ],
             [
                 'images' => ['puma1.jpg'],
                 'prix' => 44.50,
-                'marque' => 'Puma',
-                'description' => 'Design moderne pour le quotidien.'
+                'marque' => 'Nike',
+                'description' => 'Nike Air Force Premium'
             ],
             [
                 'images' => ['reebok1.jpg'],
                 'prix' => 39.99,
-                'marque' => 'Reebok',
-                'description' => 'Excellent maintien pour le sport.'
-            ],
-            [
-                'images' => ['converse1.jpg'],
-                'prix' => 35.00,
-                'marque' => 'Converse',
-                'description' => 'Style classique et intemporel.'
+                'marque' => 'adidas',
+                'description' => 'DAILY 3.0 SHOES'
             ],
         ];
 
