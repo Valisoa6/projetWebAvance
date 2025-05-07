@@ -4,7 +4,7 @@ import ProductList from '../components/ProductList';
 
 const Home = () => {
   return (
-    <div className="d-flex flex-column align-items-center justify-content-center">
+    <div>
       <Hero />
       <ProductList />
     </div>

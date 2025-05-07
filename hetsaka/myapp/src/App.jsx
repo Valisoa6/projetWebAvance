@@ -7,11 +7,12 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import ProductDetail from './pages/ProductDetail';
 
+
 function App() {
   return (
     <Router>
       <div className="d-flex flex-column min-vh-100">
-        <Navbar /><br /><br /><br /><br />
+        <Navbar /><br /><br /><br />
         <div className="flex-grow-1">
           <Routes>
             <Route path="/" element={<Home />} />
