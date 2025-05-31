@@ -93,7 +93,7 @@ const ProductDetail = () => {
             <h4 className="fw-bold mb-3">Description</h4>
             <div className="border-top my-3"></div>
             <div style={{ lineHeight: '1.6' }}>
-              <p>Energize your look with a fresh take on heritage adidas <br />
+              <p>Energize yours look with a fresh take on heritage adidas <br />
                   style.The <span className="mb-3">{product.description}</span> cut a classic profile <br />
                   with a modern suede upper.Your walk across campus or <br />
                   commute across town has never looked or felt this <br />
