@@ -50,9 +50,9 @@ const ProductDetail = () => {
     } else {
       cart.push({
         id: product.id,
-        nom: product.nom,
         marque: product.marque,
         prix: product.prix,
+        description: product.description,
         image: imageURL,
         quantity: quantity,
       });
