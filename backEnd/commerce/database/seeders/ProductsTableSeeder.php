@@ -13,25 +13,25 @@ class ProductsTableSeeder extends Seeder
 
         $products = [
             [
-                'images' => ['nike1_alt.jpg'],
+                'images' => ['nike1_alt.png'],
                 'prix' => 49.99,
                 'marque' => 'Off-White',
                 'description' => 'Out of Office "Ooo" sneakers'
             ],
             [
-                'images' => ['adidas1.jpg'],
+                'images' => ['adidas1.png'],
                 'prix' => 59.99,
                 'marque' => 'Nike',
                 'description' => 'Nike Air Force Premium'
             ],
             [
-                'images' => ['puma1.jpg'],
+                'images' => ['puma1.png'],
                 'prix' => 44.50,
                 'marque' => 'Nike',
                 'description' => 'Nike Air Force Premium'
             ],
             [
-                'images' => ['reebok1.jpg'],
+                'images' => ['reebok1.png'],
                 'prix' => 39.99,
                 'marque' => 'adidas',
                 'description' => 'DAILY 3.0 SHOES'

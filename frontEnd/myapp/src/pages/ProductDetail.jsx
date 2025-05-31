@@ -42,7 +42,7 @@ const ProductDetail = () => {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     const product = products[currentIndex];
 
-    const imageURL = `http://localhost:8000/storage/${product.images[0]}`;
+    const imageURL = `http://localhost:8000/images/${product.images[0]}`;
 
     const existingIndex = cart.findIndex(item => item.id === product.id);
     if (existingIndex !== -1) {
@@ -73,7 +73,7 @@ const ProductDetail = () => {
         <div className="col-md-6 d-flex flex-column">
           <div className="flex-fill rounded d-flex flex-column me-3">
             <img
-              src={`http://localhost:8000/storage/${product.images[0]}`}
+              src={`http://localhost:8000/images/${product.images[0]}`}
               alt={product.nom}
               className="img-fluid mb-3"
               style={{ maxHeight: '450px', width: '120%', objectFit: 'cover' }}
@@ -132,7 +132,7 @@ const ProductDetail = () => {
 
           <div className="flex-fill rounded d-flex align-items-center">
             <img
-              src={`http://localhost:8000/storage/${product.images[1] || product.images[0]}`}
+              src={`http://localhost:8000/images/${product.images[1] || product.images[0]}`}
               alt="Produit complémentaire"
               className="img-fluid"
               style={{ maxHeight: '450px', width: '120%', objectFit: 'cover' }}

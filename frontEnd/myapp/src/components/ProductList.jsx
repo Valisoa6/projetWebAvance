@@ -40,7 +40,7 @@ const ProductList = () => {
             <div className="me-3" style={{ minWidth: '250px', flex: '0 0 auto' }} key={product.id}>
               <div className="card h-100 border-0">
                 <img
-                  src={`http://localhost:8000/storage/${product.images[0]}`}
+                  src={`http://localhost:8000/images/${product.images[0]}`}
                   className="card-img-top"
                   alt={product.nom}
                 />
@@ -89,7 +89,7 @@ const ProductList = () => {
           <div className="col" key={product.id}>
             <div className="card h-100 border-0">
               <img
-                src={`http://localhost:8000/storage/${product.images[0]}`}
+                src={`http://localhost:8000/images/${product.images[0]}`}
                 className="card-img-top"
                 alt={product.nom}
               />
